@@ -26,7 +26,7 @@ const footerLinks = [
 
 export const Footer = () => {
   return (
-    <footer className="bg-white text-cyan-700 hover:bg-gray-100">
+    <footer className="bg-white text-gray-100 hover:bg-cyan-700">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           {/* Brand Section */}
