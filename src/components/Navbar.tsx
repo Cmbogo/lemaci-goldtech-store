@@ -2,6 +2,7 @@ import { ShoppingCart, Search, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import lemaciLogo from "@/assets/lemaci-logo.png";
 
 const categories = ["Phones", "Tablets", "Laptops", "Accessories", "Contact"];
 
@@ -14,10 +15,8 @@ export const Navbar = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xl">L</span>
-            </div>
+          <div className="flex items-center space-x-3">
+            <img src={lemaciLogo} alt="Lemaci Logo" className="w-12 h-12 object-contain" />
             <span className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               Lemaci
             </span>
