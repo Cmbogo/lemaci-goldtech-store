@@ -15,11 +15,8 @@ export const Navbar = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center">
             <img src={lemaciLogo} alt="Lemaci Logo" className="w-12 h-12 object-contain" />
-            <span className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Lemaci
-            </span>
           </div>
 
           {/* Desktop Navigation */}
