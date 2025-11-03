@@ -11,7 +11,7 @@ export const Navbar = () => {
   const [cartCount] = useState(0);
 
   return (
-   <nav className="sticky top-0 z-50 bg-darkturquoise text-white shadow-md">
+   <nav className="sticky top-0 z-50 bg-cyan-700 text-white shadow-md">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
