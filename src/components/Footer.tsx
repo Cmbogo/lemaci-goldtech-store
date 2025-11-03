@@ -46,15 +46,11 @@ export const Footer = () => {
             <div className="space-y-2 text-sm text-background/80">
               <div className="flex items-center space-x-2">
                 <Phone className="w-4 h-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>0713929274</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="w-4 h-4" />
-                <span>support@lemaci.com</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <MapPin className="w-4 h-4" />
-                <span>123 Tech Street, Silicon Valley, CA</span>
+                <span>cicilymbogo820@gmail.com</span>
               </div>
             </div>
           </div>
