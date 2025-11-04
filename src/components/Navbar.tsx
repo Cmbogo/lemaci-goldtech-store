@@ -16,7 +16,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <img src={lemaciyLogo} alt="Lemaciy Logo" className="w-19 h-19 object-contain" />
+            <img src={lemaciy-Logo} alt="Lemaciy-Logo" className="w-19 h-19 object-contain" />
           </div>
 
           {/* Desktop Navigation */}
