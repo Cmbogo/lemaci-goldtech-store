@@ -28,7 +28,14 @@ const footerLinks = [
 
 export const Footer = () => {
   return (
-   <footer className="bg-cyan-700 text-white"> <div className="container mx-auto px-4"> <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12"> {/* Brand Section */} <div className="lg:col-span-2 space-y-4"> <div className="flex items-center space-x-2"> <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center"> <span className="text-primary-foreground font-bold text-xl">L</span> </div> <span className="text-2xl font-bold">Lemaci</span> </div> <p className="text-background/80 max-w-sm"> Your trusted destination for premium technology. Experience the future of devices today. </p>
+   <footer className="bg-cyan-700 text-white"> 
+     <div className="container mx-auto px-4"> 
+       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12"> 
+         {/* Brand Section */} <div className="lg:col-span-2 space-y-4"> 
+           <div className="flex items-center space-x-2"> 
+             <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center"> 
+               <span className="text-primary-foreground font-bold text-xl">L</span> 
+             </div> <span className="text-2xl font-bold">Lemaci</span> </div> <p className="text-background/80 max-w-sm"> Your trusted destination for premium technology. Experience the future of devices today. </p>
   
   </div>
 </div>
