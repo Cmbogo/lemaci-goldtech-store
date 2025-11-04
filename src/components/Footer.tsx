@@ -1,8 +1,6 @@
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import companiesLogo from "@/assets/companies-logo.png";
-
 
 const socialLinks = [
   { icon: Facebook, href: "#", label: "Facebook" },
@@ -28,29 +26,27 @@ const footerLinks = [
 
 export const Footer = () => {
   return (
-   <footer className="bg-cyan-700 text-white"> 
-     <div className="container mx-auto px-4"> 
-       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12"> 
-         {/* Brand Section */} <div className="lg:col-span-2 space-y-4"> 
-           <div className="flex items-center space-x-2"> 
-             <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center"> 
-               <span className="text-primary-foreground font-bold text-xl">L</span> 
-             </div> <span className="text-2xl font-bold">Lemaci</span> </div> <p className="text-background/80 max-w-sm"> Your trusted destination for premium technology. Experience the future of devices today. </p>
-  
-  </div>
-</div>
+    <footer className="bg-cyan-700 text-white">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
 
-            
-            {/* Contact Info */}
-            <div className="space-y-2 text-sm text-background/80">
-              <div className="flex items-center space-x-2">
-                <Phone className="w-4 h-4" />
-                <span>0713929274</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Mail className="w-4 h-4" />
-                <span>cicilymbogo820@gmail.com</span>
-              </div>
+          {/* Brand Section */}
+          <div className="lg:col-span-2 space-y-4">
+            <div className="text-2xl font-bold">Lemaci</div>
+            <p className="text-background/80 max-w-sm">
+              Your trusted destination for premium technology. Experience the future of devices today.
+            </p>
+          </div>
+
+          {/* Contact Info */}
+          <div className="space-y-2 text-sm text-background/80">
+            <div className="flex items-center space-x-2">
+              <Phone className="w-4 h-4" />
+              <span>0713929274</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <Mail className="w-4 h-4" />
+              <span>cicilymbogo820@gmail.com</span>
             </div>
           </div>
 
@@ -61,8 +57,8 @@ export const Footer = () => {
               <ul className="space-y-2">
                 {section.links.map((link) => (
                   <li key={link}>
-                    <a 
-                      href="#" 
+                    <a
+                      href="#"
                       className="text-background/80 hover:text-primary transition-colors duration-300"
                     >
                       {link}
