@@ -30,20 +30,25 @@ export const Footer = () => {
   return (
    <footer className="bg-cyan-700 text-white">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
-          {/* Brand Section */}
-          {/* Brand Section */}
-<div className="lg:col-span-2 space-y-4">
-  <div className="flex items-center">
-            <img src={companiesLogo} alt="Lemaci Logo"  className="h-14 w-auto object-contain scale-500" />
-        
-    <span className="text-2xl font-bold">Lemaci</span>
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
+    {/* Brand Section */}
+    <div className="lg:col-span-2 space-y-4">
+      <div className="flex items-center space-x-2">
+        <img 
+          src={companiesLogo} 
+          alt="Lemaci Logo"  
+          className="h-14 w-auto object-contain hover:scale-110 transition-transform duration-300" 
+        />
+        <span className="text-2xl font-bold">Lemaci</span>
+      </div>
+      <p className="text-background/80 max-w-sm">
+        Your trusted destination for premium technology. 
+        Experience the future of devices today.
+      </p>
+    </div>
   </div>
-  <p className="text-background/80 max-w-sm">
-    Your trusted destination for premium technology. 
-    Experience the future of devices today.
-  </p>
 </div>
+
             
             {/* Contact Info */}
             <div className="space-y-2 text-sm text-background/80">
