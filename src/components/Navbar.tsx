@@ -2,7 +2,7 @@ import { ShoppingCart, Search, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import companiesLogo from "@/assets/companies-logo.png";
+import lemaciLogo from "@/assets/lemaci-logo.png";
 
 
 const categories = ["Phones", "Tablets", "Laptops", "Accessories", "Contact"];
@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <img src={companiesLogo} alt="companieslogo" className="w-12 h-12 object-contain" />
+            <img src={lemaciLogo} alt="Lemaci Logo" className="w-12 h-12 object-contain" />
           </div>
 
           {/* Desktop Navigation */}
