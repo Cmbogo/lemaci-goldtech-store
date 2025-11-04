@@ -2,7 +2,8 @@ import { ShoppingCart, Search, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import companiesLogo from "@src/assets/src/assets/companies-logo.png";
+import companiesLogo from "@/assets/companies-logo.png";
+
 
 const categories = ["Phones", "Tablets", "Laptops", "Accessories", "Contact"];
 
