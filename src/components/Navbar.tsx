@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <img src={companiesLogo} alt="Lemaci Logo" className="h-16 w-auto object-contain" />
+            <img src={companiesLogo} alt="Lemaci Logo" className="h-20 w-auto object-contain" />
           </div>
 
           {/* Desktop Navigation */}
