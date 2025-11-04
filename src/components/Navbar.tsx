@@ -12,7 +12,7 @@ export default function Navbar() {
     <div className="flex items-center justify-between">
       {/* Logo */}
       <div className="flex items-center">
-        <img src={companiesLogo} alt="Lemaci Logo" className="w-12 h-12 object-contain" />
+        <img src={companiesLogo} alt="companieslogo" className="w-12 h-12 object-contain" />
       </div>
     </div>
   </div>
