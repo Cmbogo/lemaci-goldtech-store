@@ -45,7 +45,7 @@ export const Footer = () => {
         Your trusted destination for premium technology. 
         Experience the future of devices today.
       </p>
-    </div>
+  
   </div>
 </div>
 
