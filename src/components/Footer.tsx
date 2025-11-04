@@ -34,12 +34,9 @@ export const Footer = () => {
           {/* Brand Section */}
           {/* Brand Section */}
 <div className="lg:col-span-2 space-y-4">
-  <div className="flex items-center space-x-3">
-    <img
-      src={companiesLogo}
-      alt="Lemaci Logo"
-      className="h-12 w-auto object-contain"
-    />
+  <div className="flex items-center">
+            <img src={companiesLogo} alt="Lemaci Logo"  className="h-14 w-auto object-contain scale-500" />
+          </div>
     <span className="text-2xl font-bold">Lemaci</span>
   </div>
   <p className="text-background/80 max-w-sm">
