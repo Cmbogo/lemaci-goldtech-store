@@ -36,7 +36,7 @@ export const Footer = () => {
 <div className="lg:col-span-2 space-y-4">
   <div className="flex items-center">
             <img src={companiesLogo} alt="Lemaci Logo"  className="h-14 w-auto object-contain scale-500" />
-          </div>
+        
     <span className="text-2xl font-bold">Lemaci</span>
   </div>
   <p className="text-background/80 max-w-sm">
