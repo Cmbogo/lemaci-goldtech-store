@@ -6,19 +6,22 @@ import lemaciLogo from "@src/assets/lemaciy-logo.png";
 
 const categories = ["Phones", "Tablets", "Laptops", "Accessories", "Contact"];
 
-export const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [cartCount] = useState(0);
-
+export default function Navbar() {
   return (
-   <nav className="sticky top-0 z-50 bg-cyan-700 text-white shadow-md">
-      <div className="container mx-auto px-4 py-4">
-        <div className="flex items-center justify-between">
-          {/* Logo */}
-          <div className="flex items-center">
-            <img src={lemaciLogo} alt="Lemaci Logo" className="w-12 h-12 object-contain" />
-          </div>
-
+    <div className="container mx-auto px-4 py-4">
+      <div className="flex items-center justify-between">
+        {/* Logo */}
+        <div className="flex items-center">
+          <img
+            src={lemaciLogo}
+            alt="Lemaci Logo"
+            className="w-12 h-12 object-contain"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {categories.map((category) => (
